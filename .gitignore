@@ -1,0 +1,24 @@
+# Data and audio (GTZAN and the commercial test songs are not redistributed)
+data/
+test examples/
+*.wav
+*.au
+*.mp3
+*.m4a
+*.zip
+
+# Model checkpoints and training outputs
+outputs/
+*.keras
+*.h5
+*.weights.h5
+checkpoint*
+tuning*/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
